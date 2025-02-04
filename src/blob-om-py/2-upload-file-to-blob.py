@@ -4,9 +4,10 @@ import uuid
 from azure.identity import DefaultAzureCredential
 from azure.storage.blob import BlobClient
 
+# Constants: stored in .env file
 
 try:
-    print("Azure Blob Storage Python demo: Part 2")
+    print("Azure Blob Storage Python demo: Part 2 Data plane")
 
     ###########   AUTHENTICATE TO AZURE   ###########
     # Acquire a credential object.

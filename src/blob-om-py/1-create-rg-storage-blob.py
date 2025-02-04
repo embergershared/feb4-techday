@@ -3,11 +3,10 @@ from azure.identity import DefaultAzureCredential
 from azure.mgmt.resource import ResourceManagementClient
 from azure.mgmt.storage import StorageManagementClient
 
-# Constants, are in .env file
-
+# Constants: stored in .env file
 
 try:
-    print("Azure Blob Storage Python demo: Part 1")
+    print("Azure Blob Storage Python demo: Part 1 Management plane")
 
     ###########   AUTHENTICATE TO AZURE   ###########
     # Acquire a credential object.
